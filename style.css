@@ -64,10 +64,12 @@ html,body {
     height: 100%;
  }
  .hero-content p{
+   line-height: 1.1;
     font-size:70px;
     font-weight: 800;
    color: #0b0909;
-   text-shadow: 20px 20px 40px rgba(32, 34, 33, 0.2)
+   text-shadow: 20px 20px 40px rgba(32, 34, 33, 0.2);
+   margin-bottom: 10px;
  }
  .hero-image{
     width: 100%;
@@ -83,8 +85,8 @@ html,body {
     all: unset;
     padding: 10px 20px;
     margin: 20px 0;
-    background-color:#8cddcd;
-    color: white;
+    background-color:#05fbca;
+    color: rgb(12, 3, 3);
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
