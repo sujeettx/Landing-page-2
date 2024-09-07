@@ -1,0 +1,150 @@
+/* Media Query for Mobile Devices (Max-width 768px) */
+@media (max-width: 768px) {
+    .wrapper {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+
+    nav div {
+        font-size: 12px;
+        gap: 5px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav div:first-child, nav div:last-child {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    nav div:first-child button:first-child {
+        height: 30px;
+        width: 30px;
+    }
+
+    nav div:last-child button:last-child {
+        height: 40px;
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .hero-content {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .hero-content h3 {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .hero-content p {
+        font-size: 5vh;
+        /* margin-bottom: 10px; */
+        font-weight: 700;
+    }
+
+    .hero-image {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .hero-image img {
+        width: 100%;
+        object-fit: contain;
+        height: auto;
+    }
+
+    .page2 {
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .page2 h2 img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .page3 {
+        flex-direction: column;
+        margin: 20px 0;
+        gap: 20px;
+    }
+
+    .page3-image {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+        background-position: top;
+        align-items: end;
+    }
+
+    .page3-content {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .page3-content>div {
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 10px;
+    }
+
+    .page3-content h3 {
+        font-size: 18px;
+    }
+
+    .page3-content p {
+        font-size: 14px;
+    }
+
+    .page3 span {
+        height: 30px;
+        width: 30px;
+        font-size: 12px;
+    }
+    .page3 div{
+        align-items: start;
+        justify-content: center;
+    }
+    hr {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .special-div {
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+        gap: 20px;
+    }
+
+    .special-div div {
+        width: 90%;
+        align-items: center;
+        margin: 0 auto;
+        padding: 10px;
+        height: auto;
+        background-color: rgba(10, 235, 175, 0.7);
+    }
+
+    button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
